@@ -82,4 +82,15 @@ $(document).ready(function () {
       $(this).remove();
     });
   });
+
+  //applies to variables.html
+     $("div#click-one").click(function (event) {
+      whatToSay = "Hello!";
+      alert(whatToSay);
+    });
+
+    $("div#click-two").click(function (event) {
+      alert(whatToSay);
+    });
+  
 });
