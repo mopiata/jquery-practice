@@ -1,0 +1,37 @@
+/* Applies to index.html */
+  #walrus-showing {
+          display: none;
+        }
+
+      .clickable {
+        cursor: pointer;
+        color: #0088cc;
+      }
+
+      .clickable:hover {
+        text-decoration: underline;
+      }
+
+      /* Applies to classes.html */
+      .green-background {
+        background-color: green;
+      }
+
+      .yellow-background {
+        background-color: yellow;
+      }
+
+      .red-background {
+        background-color: red;
+      }
+
+      /* Applies to display.html */
+      .light{
+        background-color: white;
+        color: black;
+      }
+      .dark{
+        background-color: grey;
+        color: white;
+      }
+      
