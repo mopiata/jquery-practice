@@ -34,4 +34,7 @@
         background-color: grey;
         color: white;
       }
-      
+      img{
+        height: 200px;
+        width:auto;
+      }

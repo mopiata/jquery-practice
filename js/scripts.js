@@ -68,5 +68,18 @@ $(document).ready(function () {
     });
   });
   
-  
+  // applies to dog.html
+  $("button#before").click(function(){
+    $('p').before('<img src="img/walrus.jpg" alt="dog">');
+    $('.container').children('img').click(function () {
+      $(this).remove();
+    });
+  });
+
+  $("button#after").click(function () {
+    $('p').after('<img src="img/walrus.jpg" alt="dog">');
+    $('.container').children('img').click(function () {
+      $(this).remove();
+    });
+  });
 });
